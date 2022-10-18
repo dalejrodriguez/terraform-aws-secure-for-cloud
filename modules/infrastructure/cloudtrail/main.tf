@@ -1,4 +1,4 @@
-# https://registry.terraform.io/providers/hashicorp/aws/latest/docs/resources/cloudtrail
+# https://registry.terraform.io/providers/hashicorp/aws/latest/docs/resources/cloudtrail 66
 resource "aws_cloudtrail" "cloudtrail" {
 
   name = var.name
