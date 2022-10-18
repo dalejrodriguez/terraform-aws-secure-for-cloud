@@ -6,7 +6,7 @@ provider "aws" {
   alias  = "member"
   region = var.region
   assume_role {
-    role_arn = "arn:aws:iam::${var.sysdig_secure_for_cloud_member_account_id}:role/OrganizationAccountAccessRole"
+    role_arn = "arn:aws:iam::${var.sysdig_secure_for_cloud_member_account_id}:role/OrganizationAccountAccessRole" +
   }
 }
 
